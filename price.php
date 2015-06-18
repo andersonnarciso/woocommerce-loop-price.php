@@ -31,10 +31,10 @@ if($saleprice == ''){
       
       $finalvalue = $regularprice - $per;
 
-      $preco = number_format($finalvalue,2,",","."); //money_format('%.2n', $finalvalue);
+      $price = number_format($finalvalue,2,",","."); //money_format('%.2n', $finalvalue);
       
     }
- echo '<span class="price">R$'.$preco.' in sight with discount!</span>';
+ echo '<span class="price">R$'.$price.' in sight with discount!</span>';
 }else{
     
     // Here, if a product on sale it does not apply the discount, he leaves the product at a discount price.
@@ -56,10 +56,10 @@ if($saleprice == ''){
       
       $finalvalue = $saleprice - $per;
 
-      $preco = number_format($finalvalue,2,",","."); //money_format('%.2n', $finalvalue);
+      $price = number_format($finalvalue,2,",","."); //money_format('%.2n', $finalvalue);
       
     }
  echo '<span class="price"><del>R$'.$regularprice.'</del></span>';   
- echo '<span class="price">R$'.$preco.' in sight with discount!</span>';
+ echo '<span class="price">R$'.$price.' in sight with discount!</span>';
 } 
 ?>
