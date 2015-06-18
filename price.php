@@ -2,7 +2,7 @@
 /**
  * Loop Price
  *
- * @author 		Anderson Narciso
+ * @author 	Anderson Narciso
  * @package 	WooCommerce/Loop
  * @version     2.3.11
  */
@@ -62,4 +62,17 @@ if($saleprice == ''){
  echo '<span class="price"><del>R$'.$regularprice.'</del></span>';   
  echo '<span class="price">R$'.$price.' in sight with discount!</span>';
 } 
+
+// Or you can use the standard woocommerce content (html price), that remove the all if above.
+
+/*
+
+<?php if ( $price_html = $product->get_price_html() ) : ?>
+	
+	<span class="price"><?php echo $price_html; ?></span>
+    
+<?php endif; ?> 
+
+*/
+
 ?>
