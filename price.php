@@ -2,8 +2,8 @@
 /**
  * Loop Price
  *
- * @author 		WooThemes
- * @package 	WooCommerce/Templates
+ * @author 		Anderson Narciso
+ * @package 	WooCommerce/Loop
  * @version     2.3.11
  */
 
