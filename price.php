@@ -5,7 +5,6 @@
  * @author 		WooThemes
  * @package 	WooCommerce/Templates
  * @version     2.3.11
- 
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
@@ -37,6 +36,8 @@ if($saleprice == ''){
     }
  echo '<span class="price">R$'.$preco.' in sight with discount!</span>';
 }else{
+    
+    // Here, if a product on sale it does not apply the discount, he leaves the product at a discount price.
 
     $product = get_product();
     
