@@ -2,7 +2,7 @@
 Porcentagem de desconto (visual)
 
 ||-- Brazilian Portuguease --||
-Dentro do seu template em woocommerce/loop/price.php
+Dentro do seu template em woocommerce/loop/price.php (se não possuir você deve crair as pastas woocommerce/loop e o arquivo price.php)
 
 Subistitua toda o conteúdo pelo cópido publicado.
 
@@ -10,7 +10,7 @@ Se você usa o plugin woocommerce-payment-discounts, você deve configurar o meu
 
 Percentage discount (visual frontend)
 
-|| --English--|| Inside of your template in woocommerce/loop/price.php
+|| --English--|| Inside of your template in woocommerce/loop/price.php (if you do not have you must create woocommerce folders/loop and the price.php file)
 
 Replace the entire contents by code within price.php
 
