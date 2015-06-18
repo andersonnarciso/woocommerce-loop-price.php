@@ -12,5 +12,8 @@ Percentage discount (visual frontend)
 
 Replace the entire contents by code within price.php
 
+If you use the plugin "woocommerce-payment-discounts", you must configure the my code with the same percentage value that you use in the plugin.
+
+
 
 
