@@ -1,4 +1,4 @@
-# woocommerce-loop-price.php
+# price.php
 Porcentagem de desconto (visual)
 
 ||-- Brazilian Portuguease --||
