@@ -1,4 +1,4 @@
-# price.php
+# woocommerce/loop/price.php (price discount in front end)
 Porcentagem de desconto (visual)
 
 ||-- Brazilian Portuguease --||
