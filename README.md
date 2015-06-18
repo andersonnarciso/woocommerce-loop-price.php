@@ -8,9 +8,9 @@ Subistitua toda o conteúdo pelo cópido publicado.
 
 Percentage discount (visual frontend)
 
-|| --English--|| Inside of your template in woocommerce/price.php/loop
+|| --English--|| Inside of your template in woocommerce/loop/price.php
 
-Overrides all the content by cópido published.
+Replace the entire contents by code within price.php
 
 
 
